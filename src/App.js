@@ -1,25 +1,52 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import About from './components/About';
+import Nav from './components/Nav';
+import Contact from './components/Contact';
+import Portfolio from './components/Portfolio'
+import Resume from './components/Resume';
+// import {Router, Routes, Route} from 'react-router-dom'
+
 
 function App() {
+  const [contactSelected, setContactSelected] = useState(false);
+  
+  const [categories] = useState([
+    {
+      name: 'About Me',
+      description: 'Photos of grocery stores, food trucks, and other commercial projects',
+    },
+    { name: 'Portfolio', description: 'Portraits of people in my life' },
+    { name: 'Contact', description: 'Delicious delicacies' },
+    { name: 'Resume', description: 'Fields, farmhouses, waterfalls, and the beauty of nature' },
+  ]);
+
+  const [currentCategory, setCurrentCategory] = useState(categories[0]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    // <Router>
+    //   <Routes>
+    //     <Route>
+
+    //     </Route>
+    //   </Routes>
+    // </Router>
+    <div>
+        <Nav
+          categories={categories}
+          setCurrentCategory={setCurrentCategory}
+          currentCategory={currentCategory}
+          contactSelected={contactSelected}
+          setContactSelected={setContactSelected}
+        ></Nav>
+      <main>
+      {currentCategory.name == "About Me" ? <About/> : currentCategory.name == "Portfolio" ? <Portfolio/>: currentCategory.name == "Contact" ? <Contact /> : <Resume></Resume>}
+
+
+      </main>
     </div>
   );
+
+
 }
 
 export default App;
