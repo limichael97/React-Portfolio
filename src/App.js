@@ -4,8 +4,6 @@ import Nav from './components/Nav';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio'
 import Resume from './components/Resume';
-// import {Router, Routes, Route} from 'react-router-dom'
-
 
 function App() {
   const [contactSelected, setContactSelected] = useState(false);
@@ -23,13 +21,6 @@ function App() {
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
   return (
-    // <Router>
-    //   <Routes>
-    //     <Route>
-
-    //     </Route>
-    //   </Routes>
-    // </Router>
     <div>
         <Nav
           categories={categories}
@@ -40,13 +31,9 @@ function App() {
         ></Nav>
       <main>
       {currentCategory.name == "About Me" ? <About/> : currentCategory.name == "Portfolio" ? <Portfolio/>: currentCategory.name == "Contact" ? <Contact /> : <Resume></Resume>}
-
-
       </main>
     </div>
   );
-
-
 }
 
 export default App;

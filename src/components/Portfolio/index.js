@@ -1,6 +1,10 @@
 import React from 'react';
-import weather from "../../assets/images/weather.JPG"
-
+import weatherImage from "../../assets/images/weather.JPG"
+import walknspotImage from "../../assets/images/walknspot.JPG"
+import passwordImage from "../../assets/images/password.jpg"
+import taskImage from "../../assets/images/task.png"
+import stockImage from "../../assets/images/investing.png"
+import blogImage from "../../assets/images/techblog.JPG"
 
 
 function Portfolio () {
@@ -9,7 +13,7 @@ function Portfolio () {
             <h2 class="section-title2"> Projects</h2>
             <div class= "first-project">
                 <a href ="https://limichael97.github.io/Weather-Dashboard/">
-                    <img src={weather} alt="weather" class = "image" />
+                    <img src={weatherImage} alt="weather" class = "image" />
                 </a>
                 <div class = "img-txt">
                     <h3>Weather Dashboard</h3>
@@ -19,7 +23,7 @@ function Portfolio () {
             <article class ="project-work">
                 <div class= "work-box">
                     <a href= "https://walk-n-spot.herokuapp.com/" >
-                        <img src="./assets/images/walknspot.JPG" alt="walknspot" class="image"/>
+                        <img src={walknspotImage} alt="walknspot" class="image"/>
                     </a>
                     <div class = "img-txt">
                         <h3>Walk'n Spot</h3>
@@ -28,8 +32,20 @@ function Portfolio () {
                 </div>
 
                 <div class= "work-box">
+                    <a href= "https://walk-n-spot.herokuapp.com/" >
+                        <img src={blogImage} alt="blog" class="image"/>
+                    </a>
+                    <div class = "img-txt">
+                        <h3>Tech Blog</h3>
+                        <p>JavaScript/MySQL/Sequelize/Handlebars/Express-Sessions/Node.js</p>
+                        <a href='https://github.com/limichael97/Tech-Blog'> Github Repository</a>
+
+                    </div>
+                </div>
+
+                <div class= "work-box">
                     <a href ="https://limichael97.github.io/Password_Generator/">
-                        <img src ="assets/images/password.jpg" alt ="password" class="image" />
+                        <img src ={passwordImage} alt ="password" class="image" />
                     </a>
                     <div class = "img-txt">
                         <h3>Password Generator</h3>
@@ -39,7 +55,7 @@ function Portfolio () {
 
                 <div class= "work-box">
                     <a href ="https://limichael97.github.io/taskmaster-pro/">
-                        <img src="./assets/images/task.png" alt="tasks" class ="image"/>
+                        <img src={taskImage} alt="tasks" class ="image"/>
                     </a>
                     <div class = "img-txt">
                         <h3>Taskmaster Pro</h3>
@@ -49,7 +65,7 @@ function Portfolio () {
 
                 <div class= "work-box">
                     <a href ="https://limichael97.github.io/Stockable/">
-                        <img src="assets/images/investing.png" alt= "blog" class="image"/>
+                        <img src={stockImage} alt= "blog" class="image"/>
                     </a>
                     <div class = "img-txt">
                         <h3>Stockable</h3>
