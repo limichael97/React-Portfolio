@@ -10,7 +10,7 @@ import blogImage from "../../assets/images/techblog.JPG"
 function Portfolio () {
     return (
         <section id="projects" class = "section-info">
-            <h2 class="section-title2"> Projects</h2>
+            <h2 class="section-title"> Projects</h2>
 
             <article class ="project-work">
                 <div class= "work-box">
