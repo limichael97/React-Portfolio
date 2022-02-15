@@ -18,6 +18,7 @@ function Portfolio () {
                 <div class = "img-txt">
                     <h3>Weather Dashboard</h3>
                     <p>HTML/CSS/JavaScript/Bootstrap</p>
+                    <a href='https://github.com/limichael97/Weather-Dashboard'> Github Repository</a>
                 </div>
             </div>
             <article class ="project-work">
@@ -28,6 +29,7 @@ function Portfolio () {
                     <div class = "img-txt">
                         <h3>Walk'n Spot</h3>
                         <p>JavaScript/MySQL/Sequelize/Handlebars/Bootstrap/Express-Sessions/Node.js</p>
+                        <a href='https://github.com/limichael97/Walk-n-Spot'> Github Repository</a>
                     </div>
                 </div>
 
@@ -39,7 +41,6 @@ function Portfolio () {
                         <h3>Tech Blog</h3>
                         <p>JavaScript/MySQL/Sequelize/Handlebars/Express-Sessions/Node.js</p>
                         <a href='https://github.com/limichael97/Tech-Blog'> Github Repository</a>
-
                     </div>
                 </div>
 
@@ -50,6 +51,7 @@ function Portfolio () {
                     <div class = "img-txt">
                         <h3>Password Generator</h3>
                         <p>JavaScript/HTML/CSS</p>
+                        <a href='https://github.com/limichael97/Password_Generator'> Github Repository</a>
                     </div>
                 </div>
 
@@ -60,6 +62,7 @@ function Portfolio () {
                     <div class = "img-txt">
                         <h3>Taskmaster Pro</h3>
                         <p>HTML/CSS/JavaScript/Boostrap</p>
+                        <a href='https://github.com/limichael97/taskmaster-pro'> Github Repository</a>
                     </div>
                 </div>
 
@@ -70,6 +73,7 @@ function Portfolio () {
                     <div class = "img-txt">
                         <h3>Stockable</h3>
                         <p>HTML/CSS/JavaScript/Bulma</p>
+                        <a href='https://github.com/limichael97/Stockable'> Github Repository</a>
                     </div>
                 </div>
 

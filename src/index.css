@@ -51,6 +51,10 @@ code {
     monospace;
 }
 
+a {
+  text-decoration: none;
+}
+
 html,
 body {
   min-height: 100%;
@@ -139,6 +143,9 @@ button[disabled] {
 
 img {
   max-width: 100%;
+  width: 500px;
+  height: 400px;
+
 }
 
 span[role="img"] {

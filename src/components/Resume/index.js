@@ -5,17 +5,17 @@ function Resume() {
     return (
 
         <div>
-            <h2>Skills</h2>
+            <div>
+                <a href= "../../assets/MichaelResume (Oct. 2021).pdf" download>Download Resume</a>
+                {/* <h2>Downloadable Resume</h2> */}
+                {/* <iframe src={resumePDF} title="description"></iframe> */}
+            </div>
+            <h2 className='my-2'>Skills</h2>
             <ul>
                 <li>
                     HTML
                 </li>
             </ul>
-            <div>
-                <h2>Downloadable Resume</h2>
-                <iframe src={resumePDF} title="description"></iframe>
-
-            </div>
         </div>
 
         
