@@ -4,6 +4,7 @@ import Nav from './components/Nav';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio'
 import Resume from './components/Resume';
+import Footer from './components/Footer';
 
 function App() {
   const [contactSelected, setContactSelected] = useState(false);
@@ -31,6 +32,7 @@ function App() {
         ></Nav>
       <main>
       {currentCategory.name == "About Me" ? <About/> : currentCategory.name == "Portfolio" ? <Portfolio/>: currentCategory.name == "Contact" ? <Contact /> : <Resume></Resume>}
+      <Footer></Footer>
       </main>
     </div>
   );

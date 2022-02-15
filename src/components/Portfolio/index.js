@@ -11,17 +11,18 @@ function Portfolio () {
     return (
         <section id="projects" class = "section-info">
             <h2 class="section-title2"> Projects</h2>
-            <div class= "first-project">
-                <a href ="https://limichael97.github.io/Weather-Dashboard/">
-                    <img src={weatherImage} alt="weather" class = "image" />
-                </a>
-                <div class = "img-txt">
-                    <h3>Weather Dashboard</h3>
-                    <p>HTML/CSS/JavaScript/Bootstrap</p>
-                    <a href='https://github.com/limichael97/Weather-Dashboard'> Github Repository</a>
-                </div>
-            </div>
+
             <article class ="project-work">
+                <div class= "work-box">
+                    <a href ="https://limichael97.github.io/Weather-Dashboard/">
+                        <img src={weatherImage} alt="weather" class = "image" />
+                    </a>
+                    <div class = "img-txt">
+                        <h3>Weather Dashboard</h3>
+                        <p>HTML/CSS/JavaScript/Bootstrap</p>
+                        <a href='https://github.com/limichael97/Weather-Dashboard'> Github Repository</a>
+                    </div>
+                </div>
                 <div class= "work-box">
                     <a href= "https://walk-n-spot.herokuapp.com/" >
                         <img src={walknspotImage} alt="walknspot" class="image"/>

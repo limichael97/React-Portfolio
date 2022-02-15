@@ -171,7 +171,11 @@ input:focus {
 }
 
 li {
-  list-style: none;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: bolder;
 }
 
 nav a:hover {
@@ -180,6 +184,21 @@ nav a:hover {
 
 nav  li {
   cursor: pointer;
+  list-style: none;
+
+}
+
+.first-project {
+  text-align: center;
+}
+
+.project-work {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.work-box {
+  padding: 50px;
 }
 
 textarea {
@@ -316,4 +335,26 @@ a {
 
 .navActive {
   color: var(--secondary);
+}
+
+footer {
+  color: white;
+  background: black;
+  width: 100%;
+  padding: 40px 35px;
+  display: flex;
+  justify-content: center;
+}
+
+.medialogo {
+  text-align: center;
+  width: 60px;
+  height: auto;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+.foot {
+  margin-left: 50px;
+  align-items: center;
 }

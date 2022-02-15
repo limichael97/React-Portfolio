@@ -1,5 +1,4 @@
 import React from 'react';
-import resumePDF from "../../assets/MichaelResume (Oct. 2021).pdf"
 
 function Resume() {
     return (
