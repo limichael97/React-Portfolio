@@ -45,29 +45,33 @@ function Contact() {
     // JSX
     return (
         <section > 
-          <h1 data-testid= "h1tag">Contact me</h1>
-          <form id="contact-form" onSubmit={handleSubmit}>
-              <div>
-                  <label htmlFor ="name"> Name: </label>
-                  <input type = "text" defaultValue={name} onBlur={handleChange} name ="name" />
-              </div>
-
-              <div>
-                  <label htmlFor ="email"> Email: </label>
-                  <input type = "email" defaultValue={email} onBlur={handleChange} name ="email" />
-              </div>
-
-              <div>
-                  <label htmlFor ="message"> Message: </label>
-                  <textarea name = "message" defaultValue={message} onBlur={handleChange} rows = "5" />
-              </div>
-              {errorMessage && (
+          <h1 data-testid= "h1tag" className='form'>Contact me</h1>
+          <div className='form'>
+            <form  id="contact-form"  onSubmit={handleSubmit}>
                 <div>
-                    <p className="error-text">{errorMessage}</p>
+                    <label htmlFor ="name"> Name: </label>
+                    <input type = "text" defaultValue={name} onBlur={handleChange} name ="name" />
                 </div>
-                )}
-              <button data-testid= "button"type= "submit"> Submit </button>
-          </form>
+
+                <div>
+                    <label htmlFor ="email"> Email: </label>
+                    <input type = "email" defaultValue={email} onBlur={handleChange} name ="email" />
+                </div>
+
+                <div>
+                    <label htmlFor ="message"> Message: </label>
+                    <textarea name = "message" defaultValue={message} onBlur={handleChange} rows = "5" />
+                </div>
+                {errorMessage && (
+                    <div>
+                        <p className="error-text">{errorMessage}</p>
+                    </div>
+                    )}
+                <button data-testid= "button"type= "submit"> Submit </button>
+            </form>
+
+          </div>
+
         </section>
     )
 }

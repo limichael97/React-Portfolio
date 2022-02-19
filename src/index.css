@@ -112,11 +112,11 @@ a:hover {
 }
 
 header {
-  background: var(--dark);
+  background: var(--light);
 }
 
 header a {
-  color: var(--light);
+  color: var(--dark);
 }
 
 button {
@@ -140,10 +140,36 @@ button[disabled] {
   opacity: .8;
 }
 
-img {
+.image {
   max-width: 100%;
-  width: 400px;
-  height: 300px;
+  width: 500px;
+  height: 500PX;
+}
+
+.aboutImage {
+
+  max-width: 100%;
+  width: auto;
+  height: 600px;
+}
+
+.image:hover {
+  opacity: 0.6;
+  transition: opacity .1s ;
+
+}
+
+.work-box {
+  display: block;
+  padding-top: 50px;
+  padding-bottom: 60px;
+  height:700px;
+  width: 600px;
+  margin: auto;
+
+}
+
+.img-txt {
 }
 
 .img-txt h3 {
@@ -152,6 +178,7 @@ img {
 
 .img-txt p{
   font-size: 14px;
+  width: 50%;
 }
 
 span[role="img"] {
@@ -191,6 +218,7 @@ nav a:hover {
 nav  li {
   cursor: pointer;
   list-style: none;
+  color: black;
 
 }
 
@@ -198,17 +226,6 @@ nav  li {
   text-align: center;
 }
 
-
-
-.work-box {
-  display: block;
-  padding: 50px;
-  padding-bottom: 200px;
-  height:600px;
-  width: 700px;
-  margin: auto;
-
-}
 textarea {
 	width: 600px;
 	height: 120px;
@@ -391,8 +408,40 @@ footer {
 .project-work {
   display: flex;
   flex-wrap: wrap;
-  text-align: center;
+}
+
+.resumeLink {
+  font-size: 30px;
+}
+
+.skillLook {
+  width: 80%;
+  margin-left: auto;
+}
+
+.skillLook h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.skillLang  {
+  display: flex;
+  flex-wrap: wrap ;
+  margin-top: 5px;
+  margin-left: 60px;
+}
+
+.skillLang li {
+  margin-right: 10px;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  padding-right: 50px;
+}
+
+.form {
+  display: flex;
   justify-content: center;
-  margin-top: 0;
-  margin-bottom: 0;
+  padding-bottom: 30px;
+
 }
