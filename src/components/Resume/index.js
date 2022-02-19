@@ -1,14 +1,11 @@
 import React from 'react';
+import resumePDF from '../../assets/MichaelResume (Oct. 2021).pdf'
 
 function Resume() {
     return (
 
         <div >
-            <div>
-                <a href= "../../assets/MichaelResume (Oct. 2021).pdf" className='resumeLink' download>Download Resume</a>
-                {/* <h2>Downloadable Resume</h2> */}
-                {/* <iframe src={resumePDF} title="description"></iframe> */}
-            </div>
+
             <h2 className='my-2 section-title'>Skills</h2>
             
             <div className='skillLook'>
@@ -80,6 +77,11 @@ function Resume() {
                         GitLab
                     </li>
                 </ul>
+            </div>
+
+            <div className='skillLook'>
+                {/* <a href= "../../assets/MichaelResume (Oct. 2021).pdf" className='resumeLink' download>Download Resume</a> */}
+                <iframe src={resumePDF} title="description" className='resumeLink'></iframe>
             </div>
 
             

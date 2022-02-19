@@ -40,8 +40,8 @@ body {
 }
 
 iframe {
-  height: 1200px;
-  width: 100%;
+  height: 1000px;
+  width: 90%;
 
 }
 
@@ -113,11 +113,17 @@ a:hover {
 
 header {
   background: var(--light);
+  padding: 20px 35px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 header a {
   color: var(--dark);
 }
+
+
 
 button {
   font-size: 1rem;
@@ -141,10 +147,15 @@ button[disabled] {
 }
 
 .image {
+  margin: auto;
   max-width: 100%;
-  width: 450px;
-  height: 450px;
+  width: 430px;
+  height: 350px;
+    object-fit: cover;
+
 }
+
+
 
 .aboutImage {
   width: auto;
@@ -163,11 +174,13 @@ button[disabled] {
   display: block;
   padding-top: 50px;
   padding-bottom: 60px;
-  height:650px;
+  height:550px;
   width: 600px;
   margin: auto;
 
 }
+
+
 
 .img-txt {
 }
@@ -178,7 +191,7 @@ button[disabled] {
 
 .img-txt p{
   font-size: 14px;
-  width: 50%;
+
 }
 
 span[role="img"] {
@@ -186,7 +199,7 @@ span[role="img"] {
 }
 
 form {
-  width: 40%;
+  width: 20%;
 }
 
 input {
@@ -211,15 +224,29 @@ h2 {
   font-weight: bolder;
 }
 
+nav {
+  margin-right: 20px;
+
+}
+
 nav a:hover {
   text-decoration: none;
 }
 
-nav  li {
+nav ul li {
   cursor: pointer;
   list-style: none;
   color: black;
+}
 
+nav ul span {
+  padding: 10px;
+}
+
+nav ul span:hover {
+  background: yellow;
+  border-radius: 20px;
+  color: black;
 }
 
 .first-project {
@@ -391,6 +418,10 @@ footer {
   padding-left: 20px;
 }
 
+.section-info {
+  text-align: center;
+}
+
 .foot {
   margin-left: 50px;
   align-items: center;
@@ -411,7 +442,11 @@ footer {
 }
 
 .resumeLink {
+  padding: 20px;
+  margin-top: 20px;
   font-size: 30px;
+  /* color: var(--secondary); */
+  text-decoration: none;
 }
 
 .skillLook {
@@ -440,11 +475,15 @@ footer {
 }
 
 .form {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 30px;
+
+
 
 }
+
+.formSection {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%}
 
 .flex-row {
   display: flex;
