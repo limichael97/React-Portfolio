@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.f5750ff6.css",
+    "main.js": "/react-portfolio/static/js/main.b4f2d0c4.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/aboutme.jpg": "/react-portfolio/static/media/aboutme.cd45674afb9ac003716a.jpg",
+    "static/media/linkedin.png": "/react-portfolio/static/media/linkedin.77ada94ca5a2e9841942.png",
+    "static/media/task.png": "/react-portfolio/static/media/task.5828ece9f40a914e073b.png",
+    "static/media/email.png": "/react-portfolio/static/media/email.96c8cc35ae060bc36eae.png",
+    "static/media/techblog.JPG": "/react-portfolio/static/media/techblog.688a9429cf150591f0e0.JPG",
+    "static/media/walknspot.JPG": "/react-portfolio/static/media/walknspot.7914d0f16d69002dd447.JPG",
+    "static/media/password.jpg": "/react-portfolio/static/media/password.a5042417ef117a5ef79b.jpg",
+    "static/media/weather.JPG": "/react-portfolio/static/media/weather.72bbe380ffcc4e3dae8f.JPG",
+    "static/media/investing.png": "/react-portfolio/static/media/investing.0fac2034f1b452614527.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.f5750ff6.css.map": "/react-portfolio/static/css/main.f5750ff6.css.map",
+    "main.b4f2d0c4.js.map": "/react-portfolio/static/js/main.b4f2d0c4.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f5750ff6.css",
+    "static/js/main.b4f2d0c4.js"
+  ]
+}
