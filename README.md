@@ -5,6 +5,9 @@
 
 The purpose of this website is to showcase my portfolio work using React.
 
+![image](https://user-images.githubusercontent.com/90745029/154788623-6bc8e81c-aab4-41e7-8eac-088b47bceff3.png)
+
+
 # License
 This project is licensed under the MIT license.
 
