@@ -9,14 +9,14 @@ function Nav(props) {
     } = props;
     
     return (
-        <header className="flex-row px-1">
+        <header className="nav-row px-1">
           <h2>
             <a data-testid="link" href="/">
               <span role="img" aria-label="camera"></span> Michael Li
             </a>
           </h2>
           <nav>
-            <ul className="flex-row">
+            <ul className="nav-row">
               {categories.map((category) => (
                 <li
                   className={`mx-1 ${
