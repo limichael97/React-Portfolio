@@ -5,6 +5,7 @@ import passwordImage from "../../assets/images/password.jpg"
 import taskImage from "../../assets/images/task.png"
 import stockImage from "../../assets/images/investing.png"
 import blogImage from "../../assets/images/techblog.JPG"
+import noshImage from "../../assets/images/nosh.jpg"
 
 
 function Portfolio () {
@@ -13,6 +14,16 @@ function Portfolio () {
             <h2 className="section-title"> Projects</h2>
 
             <article className ="project-work">
+                <div className= "work-box">
+                    <a href ="http://nosh-up.herokuapp.com/">
+                        <img src={noshImage} alt="nosh" className = "image" />
+                    </a>
+                    <div className = "img-txt">
+                        <h3>Weather Dashboard</h3>
+                        <p>MERN/Bootstrap</p>
+                        <a href='https://github.com/limichael97/Nosh-Up'> Github Repository</a>
+                    </div>
+                </div>
                 <div className= "work-box">
                     <a href ="https://limichael97.github.io/Weather-Dashboard/">
                         <img src={weatherImage} alt="weather" className = "image" />
